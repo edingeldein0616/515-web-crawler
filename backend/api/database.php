@@ -3,10 +3,10 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: PUT, GET, POST, DELETE");
 header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', 'YOUR_PASSWORD');
-define('DB_NAME', 'mydb');
+define('DB_HOST', 'undcsmysql.mysql.database.azure.com');
+define('DB_USER', 'erich.dingeldein@undcsmysql');
+define('DB_PASS', 'erich9942');
+define('DB_NAME', 'erich_dingeldein');
 
 function connect()
 {
