@@ -1,1 +1,83 @@
-<p>searching works!</p>
+<div class="container">
+    
+    <div class="row">
+        <div class="col align-self-center">
+            <h1 class="text-danger">Search Database</h1>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row align-items-center">
+        <div class="col-9 align-self-center">
+            <input type="text" class="form-control" name="keywords" id="keywords" placeholder="Keywords (separated by commas)">
+        </div>
+
+        <div class="col-3 align-self-center">
+            <div class="btn-group" role="group">
+                <input type="radio" class="btn-check" name="btnradio" id="btn-title" autocomplete="off" checked>
+                <label class="btn btn-outline-danger" for="btn-title">Title</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btn-keywords" autocomplete="off">
+                <label class="btn btn-outline-danger" for="btn-keywords">Keywords</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btn-description" autocomplete="off">
+                <label class="btn btn-outline-danger" for="btn-description">Description</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btn-all" autocomplete="off">
+                <label class="btn btn-outline-danger" for="btn-all">All</label>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-danger">Search</button>
+        </div>        
+    </div>
+
+    <br><br>
+
+    <div class="row">
+        <div class="col align-self-center">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">URL</th>
+                        <th scope="col">Keywords</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>XML</td>
+                        <td>XML Webpage</td>
+                        <td><a href="https://www.w3schools.com/xml" class="text-danger">www.w3schools.com/xml</a></td>
+                        <td>xml, stuff, things, yadda yadda yadda, etc</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>XML</td>
+                        <td>XML Webpage</td>
+                        <td>www.w3schools.com/xml</td>
+                        <td>xml, stuff, things, yadda yadda yadda, etc</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>XML</td>
+                        <td>XML Webpage</td>
+                        <td>www.w3schools.com/xml</td>
+                        <td>xml, stuff, things, yadda yadda yadda, etc</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
